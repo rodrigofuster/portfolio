@@ -15,11 +15,12 @@ body {
   border-radius: 10px;
   display: flex;
   opacity: 0.95;
+  box-shadow: 5px 5px 4px rgba(95, 12, 230, 0.568);
 }
 
 .menu {
   display: inline-block;
-  width: 30%;
+  width: 40%;
 background-color: black;
 color: white;
 text-align: center;
@@ -27,22 +28,32 @@ text-align: center;
 
 .olamundo {
   display: inline-block;
-    color: rgb(212, 208, 208);
     text-align: center;
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 25px;
+}
+
+.olamundo p {
+  color: rgb(212, 208, 208);
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 
 .olamundo h1 {
-  font-size: 50px;
+  font-size: 65px;
   color: whitesmoke;
 }
 
 #titulonome {
   color: rgb(8, 8, 43);
-  font-size: 70px;
+  font-size: 90px;
   font-family: 'Oswald', sans-serif;
 }
+
+.olamindo a {
+display: inline-block;
+
+}
+
