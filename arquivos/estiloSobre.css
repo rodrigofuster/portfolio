@@ -25,10 +25,12 @@
   
   .menu {
   display: inline-block;
-  width: 40%;
+  width: 60%;
   background-color: rgb(0, 0, 0);
   color: white;
   text-align: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px ;
   }
   
   .menu img {
@@ -43,11 +45,12 @@
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
+    display: flex;
   }
 
   .sobre img p {
     display: inline-block;
-    vertical-align: top;
+    vertical-align:-webkit-baseline-middle;
   }
   
   .sobre p {
@@ -57,7 +60,9 @@
   }
   
   #foto {
-    width: 400px;
+    width: 300px;
+    height: 350px;
+    margin: 10px;
   }
 
   .contatos a {
