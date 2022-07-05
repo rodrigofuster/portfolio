@@ -45,6 +45,10 @@ font-size: 65px;
 color: whitesmoke;
 }
 
+.texto p {
+  font-size: 5px;
+}
+
 #titulonome {
 color: rgb(8, 8, 43);
 font-size: 90px;
