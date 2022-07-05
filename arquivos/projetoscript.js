@@ -24,3 +24,22 @@ for (let i = 0; i < list.length; i++) {
     }
   });
 }
+
+let menuToggle = document.querySelector(".toggle");
+let navigation = document.querySelector(".navigation");
+menuToggle.onclick = function () {
+  menuToggle.classList.toggle("active");
+  navigation.classList.toggle("active");
+};
+
+let list2 = document.querySelectorAll(".list");
+for (let i = 0; i < list2.length; i++) {
+  list2[i].onclick = function () {
+    let j = 0;
+    while (j < list.length) {
+      list2[j++].className = "list";
+    }
+    list2[i].className = "list active";
+  };
+}
+
