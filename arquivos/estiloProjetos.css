@@ -5,8 +5,8 @@
     font-family: 'Oswald', sans-serif;
 }
 
-body {
-    background-color:#0c192c;
+.principal {
+    background: #0c192c;
 }
 
 section {
@@ -48,6 +48,7 @@ section ul li.active {
 }
 
 .product .itemBox {
+    background: #0c192c;
     position: relative;
     width: 200px;
     height: 200px;
@@ -87,7 +88,7 @@ section ul li.active {
     color: #eee;
     padding: 5px;
     margin-top: 20px;
-    background-color: rgb(142, 81, 240);
+    background-color: rgb(8, 8, 43);;
     font-size: 20;
     letter-spacing: 0.7px;
     border-radius: 28px;
