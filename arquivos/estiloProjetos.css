@@ -254,6 +254,8 @@ body {
     animation-duration: calc(125s / var(--i));
   
   }
+
+
   
   .bolhas span>:nth-child(even) {
     background: #ff2d75;
