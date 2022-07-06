@@ -82,22 +82,7 @@ body {
   min-height: 100vh;
 }
 
-#textoinfo {
-  font-size: 30px;
-}
-.conts   p {
-  display:flex;
-  column-count: 2;
-  width: 100%;
- font-size: 25px;
- vertical-align: auto;
- margin-left: 20px;
- align-content:center;
- position:relative;
- 
- 
-  
-}
+
 
 
 
