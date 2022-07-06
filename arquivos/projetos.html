@@ -7,10 +7,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estiloProjetos.css">
-    <link rel="stylesheet" href="styleSidebar.css">
     <title>Galeria de Produtos</title>
 </head>
-<body>
+<body class="animacao">
+    <div class="bolhas">
+      <span style="--i:11"></span>
+      <span style="--i:12"></span>
+      <span style="--i:24"></span>
+      <span style="--i:10"></span>
+      <span style="--i:14"></span>
+      <span style="--i:23"></span>
+      <span style="--i:18"></span>
+      <span style="--i:16"></span>
+      <span style="--i:19"></span>
+      <span style="--i:20"></span>
+      <span style="--i:22"></span>
+      <span style="--i:25"></span>
+      <span style="--i:18"></span>
+      <span style="--i:21"></span>
+      <span style="--i:15"></span>
+      <span style="--i:13"></span>
+      <span style="--i:26"></span>
+      <span style="--i:17"></span>
+      <span style="--i:13"></span>
+      <span style="--i:28"></span>
+      <span style="--i:11"></span>
+      <span style="--i:12"></span>
+      <span style="--i:24"></span>
+      <span style="--i:10"></span>
+      <span style="--i:14"></span>
+      <span style="--i:23"></span>
+      <span style="--i:18"></span>
+      <span style="--i:16"></span>
+      <span style="--i:19"></span>
+      <span style="--i:20"></span>
+      <span style="--i:22"></span>
+      <span style="--i:25"></span>
+      <span style="--i:18"></span>
+      <span style="--i:21"></span>
+      <span style="--i:15"></span>
+      <span style="--i:13"></span>
+      <span style="--i:26"></span>
+      <span style="--i:17"></span>
+      <span style="--i:13"></span>
+      <span style="--i:28"></span>
+    </div>
   <div class="principal">
     <div class="toggle">
       <ion-icon name="menu-outline" class="open"></ion-icon>
@@ -31,7 +72,7 @@
           </a>
         </li>
         <li class="list">
-          <a href="arquivos/projetos.html">
+          <a href="/arquivos/projetos.html">
             <span class="icon"><ion-icon name="folder-open-outline"></ion-icon></span>
             <span class="title">Projetos</span>
           </a>
@@ -50,11 +91,9 @@
           </a>
         </li>
       </ul>
-  
     </div>
-
   <div class="galeria">
-      <div>
+      <div class="filtro">
         <ul>
           <li class="list active" data-filter="all">Todos</li>
           <li class="list" data-filter="html">HTML/CSS</li>
@@ -65,25 +104,51 @@
       </div>
     
       <div class="product">
+        <div class="itemBox" data-item="js">
+          <img src="img/Calculadora01.png" alt="calculadora">
+          <p>Calculadora Js</p>
+          <a href="https://github.com/rodrigofuster/Calculadora-JavaScript"  target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+          <a href="https://rodrigofuster.github.io/Calculadora-JavaScript/" target="_blank"><ion-icon name="tv-outline"></ion-icon></a>
+        </div>
+        <div class="itemBox" data-item="js">
+          <img src="img/flappy.png" alt="flappy">
+          <p>Flappy Bird Js</p>
+          <a href="https://github.com/rodrigofuster/Calculadora-JavaScript"  target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+          <a href="https://rodrigofuster.github.io/Calculadora-JavaScript/" target="_blank"><ion-icon name="tv-outline"></ion-icon></a>
+        </div>
         <div class="itemBox" data-item="html">
-          <img src="images/camera1.jpg" alt="camera">
+          <img src="img/formulario01.png" alt="formulario">
+          <p>Formulário Responsivo</p>
+          <a href="https://github.com/rodrigofuster/Calculadora-JavaScript"  target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+          <a href="https://rodrigofuster.github.io/Calculadora-JavaScript/" target="_blank"><ion-icon name="tv-outline"></ion-icon></a>
+        </div>
+        <div class="itemBox" data-item="html">
+          <img src="img/sidebar.PNG" alt="side">
+          <p>Menu Lateral</p>
+          <a href="https://github.com/rodrigofuster/Calculadora-JavaScript"  target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+          <a href="https://rodrigofuster.github.io/Calculadora-JavaScript/" target="_blank"><ion-icon name="tv-outline"></ion-icon></a>
         </div>
         <div class="itemBox" data-item="js">
-          <img src="/images/headphone1.jpg" alt="headphone">
-        </div>
-        <div class="itemBox" data-item="react">
-          <img src="/images/mobile1.jpg" alt="celular">
-        </div>
-        <div class="itemBox" data-item="js">
-          <img src="images/shoe1.jpg" alt="tenis">
+          <img src="img/starbucks.PNG" alt="starbucks">
+          <p>Landing Page</p>
+          <a href="https://github.com/rodrigofuster/Calculadora-JavaScript"  target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+          <a href="https://rodrigofuster.github.io/Calculadora-JavaScript/" target="_blank"><ion-icon name="tv-outline"></ion-icon></a>
         </div>
         <div class="itemBox" data-item="js">
-          <img src="/images/watch1.jpg" alt="relogio">
+          <img src="img/galeria.png" alt="galeria">
+          <p>Galeria de Imagens</p>
+          <a href="https://github.com/rodrigofuster/Calculadora-JavaScript"  target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+          <a href="https://rodrigofuster.github.io/Calculadora-JavaScript/" target="_blank"><ion-icon name="tv-outline"></ion-icon></a>
         </div>
-
-      
+        <div class="itemBox" data-item="js">
+          <img src="img/destino.PNG" alt="destino">
+          <p>Seu Destino Js</p>
+          <a href="https://github.com/rodrigofuster/Calculadora-JavaScript"  target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+          <a href="https://rodrigofuster.github.io/Calculadora-JavaScript/" target="_blank"><ion-icon name="tv-outline"></ion-icon></a>
+        </div>
       </div>
     </div>
+  </div>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="projetoscript.js"></script>
